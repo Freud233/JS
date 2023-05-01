@@ -23,7 +23,9 @@ interface MessageProps {
     message?: string
     user?: boolean
 }
-defineProps<MessageProps>()
+let messageData = defineProps()
+console.log(messageData, 'messageData');
+
 </script>
 
 <style scoped></style>
